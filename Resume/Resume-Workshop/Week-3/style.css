@@ -1,0 +1,56 @@
+/* styles for my resume */
+
+/* affects all elements inside the body tags  */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #444;
+    font-weight: 400;
+}
+
+/* affects name banner */
+h1 {
+    color: #33485e;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* affects my title as a student journalist */
+strong {
+    color: #33485e;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+/* affects the section titles like experience, education, etc. */
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: white;
+    font-weight: 400;
+}
+
+/* affects job titles */
+h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+/* affects job org names */
+h4 {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+/* affects dates of jobs held */
+h5 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+}
+
+/* affects list elements under contact info, skills, education */
+li {
+   font-size: 1em; 
+}
