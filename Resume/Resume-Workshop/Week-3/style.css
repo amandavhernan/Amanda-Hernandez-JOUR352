@@ -20,10 +20,16 @@ body {
 }
 
 /* affects my title as a student journalist */
-strong {
+#title {
     color: #33485e;
     text-transform: uppercase;
     font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 /* affects the section titles like experience, education, etc. */
@@ -69,8 +75,41 @@ li {
    font-size: 1em; 
 }
 
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.menu {
+    margin: 0 auto;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline;
+}
+
+#degrees {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#do {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 #container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 50;
 }
