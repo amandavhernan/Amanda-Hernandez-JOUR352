@@ -3,6 +3,7 @@
     font-weight: 700;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
 }
 
 #byline {
@@ -30,8 +31,13 @@ p {
     text-align: left;
 }
 
+.col-md-4 {
+    margin-top: 20px;
+}
+
 #footer{
     background-color: black;
+    margin-top: 100px;
   }
   
 #footertext {
