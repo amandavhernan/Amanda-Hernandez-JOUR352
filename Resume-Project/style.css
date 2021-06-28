@@ -1,0 +1,122 @@
+#navtext {
+  font-family: 'Fjalla One';
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("typewriter.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Fjalla One';
+}
+
+.button {
+  background-color:#555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.row {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#portfolio {
+  background-color: #555555;
+  color: white;
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #777777;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman';
+}
+
+#tech, #degrees {
+  color: white;
+  font-family:Georgia, 'Times New Roman';
+}
+
+.sectionheader {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Fjalla One';
+  color: white;
+  padding-top: 10px;
+}
+
+.jobtitle {
+  font-family: 'Fjalla One';
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.organization {
+  font-family: Georgia, 'Times New Roman';
+  color: white;
+  font-size: 18px;
+}
+
+.date {
+  font-family: Georgia, 'Times New Roman';
+  font-style: italic;
+  color: white;
+}
+
+.description {
+  font-family: Georgia, 'Times New Roman';
+  color: white;
+}
+
+#footer {
+  background-color: #555555;
+  text-align: center;
+  width:100%;
+  color: white;
+  font-family: 'Fjalla One';
+  padding-top: 10px;
+}
+
+i.fab {
+  color: white;
+  box-align: center;
+  vertical-align: top;
+  padding-left: .5em;
+}
+
+i.fas {
+  color: white;
+  box-align: center;
+  vertical-align: top;
+  padding-left: .5em;
+}
+
+.img {
+  border-radius: 50%;
+  display: block;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
