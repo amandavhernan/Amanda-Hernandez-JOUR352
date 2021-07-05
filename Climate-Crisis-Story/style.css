@@ -33,6 +33,17 @@ body, html {
   width: 100%;
 }
 
+
+#hed {
+    font-size: 8em;
+    font-family: 'Playfair Display', serif;
+}
+
+#sub {
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+}
+
 .caption {
     color: grey;
     font-family: 'Oswald', sans-serif;
@@ -152,7 +163,7 @@ a:hover {
     font-size: 1em;
 }
 
-/* Media Queries */
+/* Media Queries*/
 
 @media screen and (max-height: 450px) {
     .hero-text {
@@ -164,7 +175,17 @@ a:hover {
         color: white;
         width: 100%;
     }
-  }
+
+    #hed {
+        font-size: 5em;
+        font-family: 'Playfair Display', serif;
+    }
+
+    #sub {
+        font-size: large;
+        font-family: 'Oswald', sans-serif;
+    }
+}
 
 @media (max-width: 700px) {
     .hero-text {
@@ -176,4 +197,14 @@ a:hover {
         color: white;
         width: 100%;
     }
-  }
+
+    #hed {
+        font-size: 5em;
+        font-family: 'Playfair Display', serif;
+    }
+
+    #sub {
+        font-size: large;
+        font-family: 'Oswald', sans-serif;
+    }
+}
