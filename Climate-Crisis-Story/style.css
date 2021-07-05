@@ -165,6 +165,31 @@ a:hover {
 
 /* Media Queries*/
 
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        width: 100%;
+    }
+
+    #hed {
+        font-size: 6em;
+        font-family: 'Playfair Display', serif;
+    }
+
+    #sub {
+        font-size: large;
+        font-family: 'Oswald', sans-serif;
+    } 
+}
+
 @media screen and (max-height: 450px) {
     .hero-text {
         text-align: center;
