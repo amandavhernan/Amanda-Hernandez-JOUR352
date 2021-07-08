@@ -1,0 +1,241 @@
+body, html {
+    height: 100%;
+}
+
+.nav-header {
+    color: white;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("covid-nataliya-vaitkevich.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  border: 4px solid white;
+}
+
+
+#hed {
+    font-size: 6em;
+    font-family: 'Rufina', serif;
+    font-weight: bold;
+}
+
+#sub {
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+}
+
+.caption {
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+}
+
+#headline {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Rufina', serif;
+    margin-top: 10px;
+}
+
+#byline {
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+#pub-date {
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: grey;
+}
+
+.socials {
+    padding-bottom: 10px;
+}
+
+i.fab {
+    color: teal;
+    box-align: left;
+    padding-left: .5em;
+    vertical-align: super;
+  }
+
+i.fas {
+    color: teal;
+    box-align: left;
+    vertical-align: super;
+  }
+
+.drop-cap:first-letter {
+    float: left;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    color: teal;
+}
+
+p {
+    font-family: 'Rufina', serif;
+    font-size: 1em;
+}
+
+.photos {
+    width: 100%;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+blockquote p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 0;
+    color: teal;
+}
+
+blockquote .source {
+    text-align: right;
+    font-style: italic;
+    font-weight: 300;
+    margin-right: 2em;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.col-md-6 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sidebar {
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
+  }
+  
+.sidebar-head {
+    color: black;
+    width: 60%;
+    text-align: left;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    color: teal;
+}
+
+.sidebar-text {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+#footer {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+/* Media Queries*/
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        width: 100%;
+    }
+
+    #hed {
+        font-size: xx-large;
+        font-family: 'Rufina', serif;
+    }
+
+    #sub {
+        font-size: large;
+        font-family: 'Raleway', sans-serif;
+    } 
+}
+
+@media screen and (max-height: 450px) {
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        width: 100%;
+    }
+
+    #hed {
+        font-size: 4em;
+        font-family: 'Rufina', serif;
+    }
+
+    #sub {
+        font-size: large;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+@media (max-width: 700px) {
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        width: 100%;
+    }
+
+    #hed {
+        font-size: 4em;
+        font-family: 'Rufina', serif;
+    }
+
+    #sub {
+        font-size: large;
+        font-family: 'Raleway', sans-serif;
+    }
+}
