@@ -182,11 +182,11 @@ a:link {
   }
   
 a:visited {
-    color: black;
+    color: grey;
   }
   
 a:hover {
-    color: grey;
+    color: teal;
   }
 
 /* Media Queries*/
