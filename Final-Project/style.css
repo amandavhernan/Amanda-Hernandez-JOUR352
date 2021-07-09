@@ -189,29 +189,7 @@ a:hover {
     color: teal;
   }
 
-/* Media Queries*/
-
-@media (min-width: 320px) {
-    .hero-text {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        width: 100%;
-    }
-
-    #hed {
-        font-size: medium;
-        font-family: 'Rufina', serif;
-    }
-
-    #sub {
-        font-size: small;
-        font-family: 'Raleway', sans-serif;
-    } 
-}
+/* Media Queries */
 
 @media only screen 
   and (min-device-width: 414px) 
