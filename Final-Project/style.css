@@ -206,12 +206,12 @@ a:hover {
     }
 
     #hed {
-        font-size: small;
+        font-size: 10vw;
         font-family: 'Rufina', serif;
     }
 
     #sub {
-        font-size: small;
+        font-size: medium;
         font-family: 'Raleway', sans-serif;
     } 
 }
